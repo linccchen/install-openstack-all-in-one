@@ -13,7 +13,10 @@ chmod +x *.sh
 ./install.sh 
 ```
 
-## IF you download rpm is stein version or other,you need instead rpm,example epel is stein-norch.repo
+## Instead of RPM 
+
+IF you download rpm is stein version or other,you need instead rpm,example epel is stein-norch.repo
 
 ```
-yum install -y openstack-stein
+yum install -y centos-release-openstack-stein
+```
