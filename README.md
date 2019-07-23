@@ -12,3 +12,8 @@ cd install-openstack-all-ine-one
 chmod +x *.sh
 ./install.sh 
 ```
+
+## IF you download rpm is stein version or other,you need instead rpm,example epel is stein-norch.repo
+
+```
+yum install -y openstack-stein
